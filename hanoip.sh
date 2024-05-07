@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Cloned OSS kernel"
-git clone --depth=1 https://github.com/Sozosha-Dev/kernel_motorola_sm6150 kernel/motorola/hanoip
+git clone --depth=1 https://github.com/Hanoip-Development/android_kernel_motorola_sm7150/commits/fourteen/ kernel/motorola/sm7150
 echo "Done"
 
 echo "Cloned OSS vendor"
