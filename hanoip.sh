@@ -1,15 +1,15 @@
 #!/bin/bash
 
 echo "Cloned OSS kernel"
-git clone --depth=1 https://github.com/Hanoip-Development/android_kernel_motorola_sm7150 kernel/motorola/sm7150
+git clone --depth=1 https://github.com/crdroidandroid/android_kernel_motorola_sm7150 kernel/motorola/sm7150
 echo "Done"
 
 echo "Cloned OSS vendor"
-git clone https://github.com/Hanoip-Development/proprietary_vendor_motorola_hanoip vendor/motorola/hanoip
+git clone https://github.com/crdroidandroid/vendor_motorola_hanoip vendor/motorola/hanoip
 echo "Done"
 
 echo "Cloned Device tree"
-git clone https://github.com/Hanoip-Development/android_device_motorola_hanoip device/motorola/hanoip
+git clone https://github.com/crdroidandroid/android_device_motorola_hanoip device/motorola/hanoip
 echo "Done" 
 
 echo "Clone dependencies "
